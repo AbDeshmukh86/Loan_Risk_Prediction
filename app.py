@@ -18,7 +18,7 @@ st.set_page_config(
 
 def add_bg():
 
-    with open(loan.jpg", "rb") as f:
+    with open("loan.jpg", "rb") as f:
 
         data = base64.b64encode(f.read()).decode()
 
