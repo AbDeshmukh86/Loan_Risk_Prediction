@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import base64
 import plotly.express as px
 
-model = joblib.load(lightgbm.pkl")
+model = joblib.load("lightgbm.pkl")
 explainer = shap.TreeExplainer(model)
 
 st.set_page_config(
